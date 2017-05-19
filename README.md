@@ -3,3 +3,5 @@ Instructions:
 2. `cd vega-test`
 3. `yarn install`
 4. `yarn start`
+
+![alt text](/chart.png)
