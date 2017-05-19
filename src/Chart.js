@@ -10,11 +10,6 @@ class Chart extends React.Component {
     this.state = { data: this.props.data, spec: this.props.spec };
   }
 
-  // componentDidMount() {
-  //   this.setState({ data: this.state.data });
-  // }
-  
-
   render() {
     return (
       <div>
