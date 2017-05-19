@@ -4,4 +4,3 @@ Instructions:
 3. `yarn install`
 4. `yarn start`
 
-![alt text](/chart.png)
