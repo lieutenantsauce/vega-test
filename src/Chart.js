@@ -13,7 +13,7 @@ class Chart extends React.Component {
   render() {
     return (
       <div>
-        <Vega spec={this.state.spec} data={this.state.data} />
+        <Vega spec={this.state.spec} data={this.state.data} renderer="svg" />
       </div>
     );
   }
