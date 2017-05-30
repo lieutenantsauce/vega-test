@@ -13,7 +13,7 @@ class Chart extends React.Component {
   render() {
     return (
       <div>
-        <Vega spec={this.state.spec} data={this.state.data} renderer="svg" />
+        <Vega spec={this.state.spec} data={this.state.data} renderer="svg"  />
       </div>
     );
   }
@@ -23,11 +23,5 @@ Chart.propTypes = {
   spec: PropTypes.any.isRequired,
   data: PropTypes.any.isRequired,
 };
-
-// Chart.defaultProps = {
-//   spec: spec1,
-//   data: [],
-// };
-
 
 export default Chart;
